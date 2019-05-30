@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Timer - BLoC',
       home: BlocProvider(
         bloc: _timerBloc,
-        child: Timer(), // TODO: implement widget
+        child: Timer(),
       ),
     );
   }
